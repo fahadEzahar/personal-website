@@ -2,9 +2,9 @@ import React from 'react';
 
 const BlogPost = () => {
     return (
-        <div className="mt-3 p-5">
-            <h1>coming soon....</h1>
-        </div>
+        <div class="alert alert-info text-center pt-5 mt-5 " role="alert">
+  <h4>coming soon ...</h4>
+</div>
     );
 };
 

@@ -10,6 +10,8 @@ import {
 import NavBar from './components/NavBar/NavBar';
 import BlogPost from './components/BlogPost/BlogPost';
 import About from './components/About/About';
+import Portfolio from './components/Portfolio/Portfolio';
+import CopyRight from './components/CopyRight/CopyRight';
 
 function App() {
   return (
@@ -18,14 +20,21 @@ function App() {
         <Route exact path="/">
           <NavBar/>
           <Header/>
+          <Portfolio/>
+          <About/>
+          <CopyRight/>
         </Route>
         <Route path="/home">
         <NavBar/>
         <Header/>
+        <Portfolio/>
+        <About/>
+        <CopyRight/>
         </Route>
         <Route path="/projects">
           <NavBar/>
           <Projects/>
+          <CopyRight/>
         </Route>
         <Route path="/blog">
           <NavBar/>
@@ -34,6 +43,7 @@ function App() {
         <Route path="/about">
           <NavBar/>
           <About/>
+          <CopyRight/>
         </Route>
       </Switch>
     </Router> 
