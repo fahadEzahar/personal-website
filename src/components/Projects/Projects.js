@@ -10,9 +10,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Projects = () => {
-    useEffect(()=>{
-        AOS.init({duration: 1000});
-    },[])
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, [])
     return (
         <div className="project-bg ">
             <div className="container mt-3 p-5 text-center">
@@ -179,7 +179,7 @@ Users can apply for their favorite social work as a volunteer</p>
                             <a style={{ textDecoration: 'none' }} href="https://frosty-hugle-83748d.netlify.app">
                                 <div class="d-inline px-4 m-1 btn btn-outline-dark">Website</div>
                             </a>
-                            <a style={{ textDecoration: 'none' }} href="https://github.com/fahadEzahar/volunteer-network">
+                            <a style={{ textDecoration: 'none' }} href="https://github.com/fahadEzahar/ema-john">
                                 <div class="d-inline px-4 m-1 btn btn-outline-dark">Github</div>
                             </a>
                         </div>
